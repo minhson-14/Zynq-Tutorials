@@ -1,0 +1,29 @@
+# Vivado HLS / Vitis HLS generated files
+*.log
+*.jou
+
+# HLS Project synthesis output (auto-generated, rất nặng)
+*/matrix_mult_prj/
+**/solution*/
+**/.autopilot/
+**/impl/
+**/csim/
+**/syn/
+
+# Vivado generated
+*.bit
+*.xpr
+*.runs/
+*.ip_user_files/
+*.hw/
+*.sim/
+*.cache/
+*.gen/
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+*.swp

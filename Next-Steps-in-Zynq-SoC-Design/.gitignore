@@ -1,0 +1,56 @@
+# Vivado / Vitis .gitignore
+
+# Vivado generated files
+*.jou
+*.log
+*.str
+*.os
+*.dcp
+*.pb
+
+# Vivado project internals
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.gen/
+*.hbs
+.Xil/
+
+# But keep .xpr project file and .bd block design
+# !*.xpr
+# !*.bd
+
+# Vitis workspace
+.metadata/
+RemoteSystemsTempFiles/
+.sdk/
+.settings/
+
+# Vitis build artifacts
+Debug/
+Release/
+*.elf
+*.o
+*.d
+
+# Compiled files
+*.bit
+*.bin
+*.mmi
+*.ltx
+
+# Keep the XSA file for reference
+# !*.xsa
+
+# OS generated files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Temporary files
+*~
+*.swp
+*.bak
+*.tmp

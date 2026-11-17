@@ -1,0 +1,35 @@
+# Vivado generated folders
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+.Xil/
+
+# Vitis / Eclipse generated folders
+vitis_workspace/
+.metadata/
+Debug/
+Release/
+_ide/
+
+# Build products
+*.elf
+*.o
+*.d
+*.a
+*.map
+*.jou
+*.log
+*.str
+*.wdb
+*.wcfg
+*.pb
+*.rpx
+
+# OS / editor files
+Thumbs.db
+.DS_Store
+.vscode/
+*.swp
